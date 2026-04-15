@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "json-string-converter": {
+      "cardDecodeDescription": "Convert an escaped JSON string value back to a JSON object.",
+      "cardDecodeTitle": "String to JSON",
+      "cardEncodeDescription": "Convert a JSON object into an escaped JSON string value.",
+      "cardEncodeTitle": "JSON to string",
+      "formatJson": "Format JSON",
+      "invalidJson": "Provided JSON is not valid.",
+      "invalidJsonString": "Provided JSON string is not valid.",
+      "invalidJsonStringTitle": "Invalid JSON string",
+      "invalidJsonTitle": "Invalid JSON",
+      "jsonInputPlaceholder": "Paste JSON here...",
+      "jsonStringInputPlaceholder": "Paste escaped JSON string here..."
+    }
+  }
+}

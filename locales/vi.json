@@ -671,6 +671,11 @@
       "description": "Phân tích và chuyển đổi YAML sang TOML.",
       "keywords": "yaml,sang,toml,chuyển đổi,chuyển đổi",
       "title": "YAML sang TOML"
+    },
+    "json-string-converter": {
+      "title": "Bộ chuyển đổi JSON string",
+      "description": "Chuyển JSON sang chuỗi JSON đã escape và chuyển ngược lại về JSON.",
+      "keywords": "json,string,escape,unescape,parser,stringify,converter"
     }
   }
 }

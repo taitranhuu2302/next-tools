@@ -671,6 +671,11 @@
       "description": "Analise e converta YAML para TOML.",
       "keywords": "yaml,para,toml,converter,transformar",
       "title": "YAML para TOML"
+    },
+    "json-string-converter": {
+      "title": "JSON string converter",
+      "description": "Convert JSON to escaped JSON string and convert it back to JSON.",
+      "keywords": "json,string,escape,unescape,parser,stringify,converter"
     }
   }
 }

@@ -671,6 +671,11 @@
       "description": "Парсинг YAML и преобразование в TOML.",
       "keywords": "yaml,в,toml,конвертировать,трансформировать",
       "title": "YAML в TOML"
+    },
+    "json-string-converter": {
+      "title": "JSON string converter",
+      "description": "Convert JSON to escaped JSON string and convert it back to JSON.",
+      "keywords": "json,string,escape,unescape,parser,stringify,converter"
     }
   }
 }

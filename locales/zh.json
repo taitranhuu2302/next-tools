@@ -671,6 +671,11 @@
       "description": "解析YAML并将其转换为TOML。",
       "keywords": "yaml,到,toml,转换,变换",
       "title": "YAML 转 TOML"
+    },
+    "json-string-converter": {
+      "title": "JSON string converter",
+      "description": "Convert JSON to escaped JSON string and convert it back to JSON.",
+      "keywords": "json,string,escape,unescape,parser,stringify,converter"
     }
   }
 }

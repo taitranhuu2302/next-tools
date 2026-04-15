@@ -42,6 +42,7 @@ import { tool as ipv4SubnetCalculator } from './ipv4-subnet-calculator';
 import { tool as ipv6UlaGenerator } from './ipv6-ula-generator';
 import { tool as jsonDiff } from './json-diff';
 import { tool as jsonMinify } from './json-minify';
+import { tool as jsonStringConverter } from './json-string-converter';
 import { tool as jsonToCsv } from './json-to-csv';
 import { tool as jsonToToml } from './json-to-toml';
 import { tool as jsonToXml } from './json-to-xml';
@@ -117,6 +118,7 @@ export const toolsByCategory: ToolCategory[] = [
       yamlToToml,
       jsonToYaml,
       jsonToToml,
+      jsonStringConverter,
       listConverter,
       tomlToJson,
       tomlToYaml,

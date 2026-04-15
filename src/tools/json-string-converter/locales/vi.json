@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "json-string-converter": {
+      "cardDecodeDescription": "Chuyển chuỗi JSON đã escape về lại đối tượng JSON.",
+      "cardDecodeTitle": "String sang JSON",
+      "cardEncodeDescription": "Chuyển đối tượng JSON thành chuỗi JSON đã escape.",
+      "cardEncodeTitle": "JSON sang string",
+      "formatJson": "Định dạng JSON",
+      "invalidJson": "JSON được cung cấp không hợp lệ.",
+      "invalidJsonString": "Chuỗi JSON được cung cấp không hợp lệ.",
+      "invalidJsonStringTitle": "Chuỗi JSON không hợp lệ",
+      "invalidJsonTitle": "JSON không hợp lệ",
+      "jsonInputPlaceholder": "Dán JSON vào đây...",
+      "jsonStringInputPlaceholder": "Dán chuỗi JSON đã escape vào đây..."
+    }
+  }
+}
