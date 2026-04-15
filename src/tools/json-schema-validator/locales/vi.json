@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "json-schema-validator": {
+      "generatedSchemaDescription": "Bản xem trước JSON Schema được tạo từ JSON mẫu.",
+      "generatedSchemaTitle": "Schema đã tạo",
+      "generatedSchemaUnavailableDescription": "Hãy sửa JSON mẫu để tạo bản xem trước schema.",
+      "generatedSchemaUnavailableTitle": "Không có schema",
+      "invalidDescription": "JSON mẫu không thỏa mãn schema.",
+      "invalidJson": "JSON được cung cấp không hợp lệ.",
+      "invalidJsonTitle": "JSON không hợp lệ",
+      "invalidSchema": "JSON Schema được cung cấp không hợp lệ.",
+      "invalidSchemaTitle": "JSON Schema không hợp lệ",
+      "invalidTitle": "Kiểm tra schema thất bại",
+      "optionsDescription": "Tạo JSON Schema chặt chẽ hơn từ JSON mẫu và kiểm tra ngay lập tức.",
+      "optionsTitle": "Tùy chọn tạo",
+      "resultDescription": "JSON mẫu được kiểm tra theo schema đang dùng.",
+      "resultTitle": "Kết quả kiểm tra",
+      "sampleDescription": "Dán một JSON mẫu để tạo schema từ đó.",
+      "samplePlaceholder": "Dán JSON mẫu của bạn vào đây...",
+      "sampleTitle": "JSON mẫu",
+      "schemaDescription": "Chỉnh schema bên dưới hoặc dùng bản xem trước đã tạo, rồi kiểm tra JSON mẫu.",
+      "schemaInputLabel": "JSON Schema (ghi đè tùy chọn)",
+      "schemaPlaceholder": "Để trống để dùng schema đã tạo...",
+      "schemaTitle": "Trình kiểm tra schema",
+      "strictMode": "Chế độ chặt",
+      "strictModeDescription": "Đánh dấu mọi thuộc tính quan sát được là bắt buộc và không cho phép thuộc tính thừa trong schema tạo ra.",
+      "title": "Trình kiểm tra JSON Schema",
+      "useGeneratedSchema": "Dùng schema đã tạo",
+      "validDescription": "JSON mẫu khớp với schema hiện tại.",
+      "validTitle": "JSON hợp lệ",
+      "validationUnavailableDescription": "Hãy sửa JSON mẫu để kiểm tra.",
+      "validationUnavailableSchemaDescription": "Hãy sửa schema để kiểm tra JSON mẫu.",
+      "validationUnavailableTitle": "Không thể kiểm tra"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "tools": {
+    "json-schema-validator": {
+      "generatedSchemaDescription": "A JSON Schema preview generated from the sample JSON.",
+      "generatedSchemaTitle": "Generated schema",
+      "generatedSchemaUnavailableDescription": "Fix the sample JSON to generate a schema preview.",
+      "generatedSchemaUnavailableTitle": "Schema unavailable",
+      "invalidDescription": "The sample JSON does not satisfy the schema.",
+      "invalidJson": "Provided JSON is not valid.",
+      "invalidJsonTitle": "Invalid JSON",
+      "invalidSchema": "Provided JSON Schema is not valid.",
+      "invalidSchemaTitle": "Invalid JSON Schema",
+      "invalidTitle": "Schema validation failed",
+      "optionsDescription": "Generate a stricter JSON Schema from the sample JSON and validate it immediately.",
+      "optionsTitle": "Generation options",
+      "resultDescription": "The sample JSON is validated against the active schema.",
+      "resultTitle": "Validation result",
+      "sampleDescription": "Paste a sample JSON document to generate a schema from it.",
+      "samplePlaceholder": "Paste your sample JSON here...",
+      "sampleTitle": "Sample JSON",
+      "schemaDescription": "Edit the schema below or use the generated preview, then validate the sample JSON against it.",
+      "schemaInputLabel": "JSON Schema (optional override)",
+      "schemaPlaceholder": "Leave empty to use the generated schema...",
+      "schemaTitle": "Schema validator",
+      "strictMode": "Strict mode",
+      "strictModeDescription": "Mark all observed object properties as required and disallow extra properties in generated schema.",
+      "title": "JSON Schema validator",
+      "useGeneratedSchema": "Use generated schema",
+      "validDescription": "The sample JSON matches the current schema.",
+      "validTitle": "Valid JSON",
+      "validationUnavailableDescription": "Fix the sample JSON to validate it.",
+      "validationUnavailableSchemaDescription": "Fix the schema to validate the sample JSON.",
+      "validationUnavailableTitle": "Validation unavailable"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "csv-to-json": {
+      "cardInputDescription": "Paste CSV data to convert it into JSON.",
+      "cardInputTitle": "CSV input",
+      "cardOutputDescription": "Review and copy the generated JSON result.",
+      "cardOutputTitle": "JSON output",
+      "configDescription": "Configure delimiter and parsing options for your CSV data.",
+      "configTitle": "Configuration",
+      "delimiterLabel": "Delimiter",
+      "delimiterPlaceholder": "Leave empty to auto detect",
+      "detectedDelimiter": "Detected delimiter",
+      "firstRowHeader": "First row is header",
+      "formatJson": "Format JSON",
+      "inferTypes": "Infer primitive types",
+      "inputPlaceholder": "Paste your CSV here...",
+      "invalidCsv": "Provided CSV is not valid.",
+      "invalidCsvTitle": "Invalid CSV",
+      "skipEmptyLines": "Skip empty lines"
+    }
+  }
+}

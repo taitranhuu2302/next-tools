@@ -676,6 +676,16 @@
       "title": "Bộ chuyển đổi JSON string",
       "description": "Chuyển JSON sang chuỗi JSON đã escape và chuyển ngược lại về JSON.",
       "keywords": "json,string,escape,unescape,parser,stringify,converter"
+    },
+    "csv-to-json": {
+      "title": "Bộ chuyển đổi CSV sang JSON",
+      "description": "Chuyển dữ liệu CSV sang JSON với delimiter và tùy chọn parse có thể cấu hình.",
+      "keywords": "csv,json,chuyen doi,parser,delimiter,header"
+    },
+    "json-schema-validator": {
+      "title": "Trình kiểm tra JSON Schema",
+      "description": "Tạo JSON Schema từ JSON mẫu và kiểm tra JSON theo schema đó.",
+      "keywords": "json,schema,validator,generator,ajv,validation"
     }
   }
 }

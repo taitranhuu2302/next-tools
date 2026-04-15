@@ -21,6 +21,7 @@ import { tool as chmodCalculator } from './chmod-calculator';
 import { tool as chronometer } from './chronometer';
 import { tool as colorConverter } from './color-converter';
 import { tool as cronGenerator } from './cron-generator';
+import { tool as csvToJson } from './csv-to-json';
 import { tool as dateTimeConverter } from './date-converter';
 import { tool as deviceInformation } from './device-information';
 import { tool as dockerRunToDockerComposeConverter } from './docker-run-to-docker-compose-converter';
@@ -43,6 +44,7 @@ import { tool as ipv6UlaGenerator } from './ipv6-ula-generator';
 import { tool as jsonDiff } from './json-diff';
 import { tool as jsonMinify } from './json-minify';
 import { tool as jsonStringConverter } from './json-string-converter';
+import { tool as jsonSchemaValidator } from './json-schema-validator';
 import { tool as jsonToCsv } from './json-to-csv';
 import { tool as jsonToToml } from './json-to-toml';
 import { tool as jsonToXml } from './json-to-xml';
@@ -168,6 +170,8 @@ export const toolsByCategory: ToolCategory[] = [
       jsonViewer,
       jsonMinify,
       jsonToCsv,
+      csvToJson,
+      jsonSchemaValidator,
       sqlPrettify,
       chmodCalculator,
       dockerRunToDockerComposeConverter,

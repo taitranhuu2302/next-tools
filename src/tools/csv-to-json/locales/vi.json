@@ -1,0 +1,22 @@
+{
+  "tools": {
+    "csv-to-json": {
+      "cardInputDescription": "Dán dữ liệu CSV để chuyển đổi sang JSON.",
+      "cardInputTitle": "CSV đầu vào",
+      "cardOutputDescription": "Xem lại và sao chép kết quả JSON đã tạo.",
+      "cardOutputTitle": "JSON đầu ra",
+      "configDescription": "Cấu hình delimiter và các tùy chọn parse cho dữ liệu CSV của bạn.",
+      "configTitle": "Cấu hình",
+      "delimiterLabel": "Delimiter",
+      "delimiterPlaceholder": "Để trống để tự động nhận diện",
+      "detectedDelimiter": "Delimiter được nhận diện",
+      "firstRowHeader": "Dòng đầu là header",
+      "formatJson": "Định dạng JSON",
+      "inferTypes": "Suy luận kiểu dữ liệu cơ bản",
+      "inputPlaceholder": "Dán CSV của bạn vào đây...",
+      "invalidCsv": "CSV được cung cấp không hợp lệ.",
+      "invalidCsvTitle": "CSV không hợp lệ",
+      "skipEmptyLines": "Bỏ qua dòng trống"
+    }
+  }
+}

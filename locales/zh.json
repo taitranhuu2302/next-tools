@@ -676,6 +676,16 @@
       "title": "JSON string converter",
       "description": "Convert JSON to escaped JSON string and convert it back to JSON.",
       "keywords": "json,string,escape,unescape,parser,stringify,converter"
+    },
+    "csv-to-json": {
+      "title": "CSV to JSON converter",
+      "description": "Convert CSV data to JSON with configurable delimiter and parsing options.",
+      "keywords": "csv,json,converter,parser,delimiter,header"
+    },
+    "json-schema-validator": {
+      "title": "JSON Schema validator",
+      "description": "Generate a JSON Schema from sample JSON and validate JSON against it.",
+      "keywords": "json,schema,validator,generator,ajv,validation"
     }
   }
 }
