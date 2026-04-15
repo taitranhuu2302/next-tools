@@ -722,10 +722,5 @@
       "description": "Sinh interface và type TypeScript từ JSON.",
       "keywords": "json,typescript,converter,interface,type,generator"
     },
-    "api-client": {
-      "title": "API client",
-      "description": "Gửi HTTP request và xem phản hồi từ API.",
-      "keywords": "api,http,client,request,response,cors,proxy"
-    }
   }
 }

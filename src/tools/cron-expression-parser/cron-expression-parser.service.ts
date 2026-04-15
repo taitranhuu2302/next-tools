@@ -23,6 +23,17 @@ interface CronParseResult {
   fields: CronFieldPart[]
 }
 
+interface CronBuildInput {
+  second: string
+  minute: string
+  hour: string
+  dayOfMonth: string
+  month: string
+  dayOfWeek: string
+  includeYear: boolean
+  year?: string
+}
+
 function isCronExpressionValid(expression: string): boolean {
   const value = expression.trim()
   if (!value) {
@@ -118,5 +129,22 @@ function parseCronExpression(expression: string, locale: string): CronParseResul
   }
 }
 
-export { isCronExpressionValid, parseCronExpression }
-export type { CronFieldName, CronFieldPart, CronParseResult }
+function buildCronExpression(input: CronBuildInput): string {
+  const fields = [
+    input.second.trim() || '*',
+    input.minute.trim() || '*',
+    input.hour.trim() || '*',
+    input.dayOfMonth.trim() || '*',
+    input.month.trim() || '*',
+    input.dayOfWeek.trim() || '*',
+  ]
+
+  if (input.includeYear) {
+    fields.push(input.year?.trim() || '*')
+  }
+
+  return fields.join(' ')
+}
+
+export { buildCronExpression, isCronExpressionValid, parseCronExpression }
+export type { CronBuildInput, CronFieldName, CronFieldPart, CronParseResult }

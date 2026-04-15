@@ -9,7 +9,6 @@ import { tool as dataTransferCalculator } from './data-transfer-calculator';
 import { tool as dateCalculator } from './date-calculator';
 import { tool as icoGenerator } from './ico-generator';
 import { tool as base64StringConverter } from './base64-string-converter';
-import { tool as apiClient } from './api-client';
 
 import { tool as basicAuthGenerator } from './basic-auth-generator';
 
@@ -151,7 +150,6 @@ export const toolsByCategory: ToolCategory[] = [
     components: [
       urlEncoder,
       htmlEntities,
-      apiClient,
       urlParser,
       deviceInformation,
       basicAuthGenerator,

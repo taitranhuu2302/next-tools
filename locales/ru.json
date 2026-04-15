@@ -722,10 +722,5 @@
       "description": "Generate TypeScript interfaces and types from JSON.",
       "keywords": "json,typescript,converter,interface,type,generator"
     },
-    "api-client": {
-      "title": "API client",
-      "description": "Send HTTP requests and inspect API responses.",
-      "keywords": "api,http,client,request,response,cors,proxy"
-    }
   }
 }
