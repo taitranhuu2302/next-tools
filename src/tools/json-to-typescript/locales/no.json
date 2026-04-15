@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "json-to-typescript": {
+      "title": "JSON to TypeScript",
+      "description": "Generate TypeScript interfaces and types from JSON.",
+      "keywords": "json,typescript,converter,interface,type,generator",
+      "configTitle": "Configuration",
+      "configDescription": "Set your root type name and generate TypeScript types from JSON.",
+      "rootTypeLabel": "Root type name",
+      "cardInputTitle": "JSON input",
+      "cardInputDescription": "Paste JSON and generate matching TypeScript types.",
+      "inputPlaceholder": "Paste JSON here...",
+      "invalidJson": "Invalid JSON input",
+      "invalidJsonTitle": "Invalid JSON",
+      "cardOutputTitle": "TypeScript output",
+      "cardOutputDescription": "Review and copy generated interfaces and types.",
+      "outputLabel": "Generated TypeScript"
+    }
+  }
+}

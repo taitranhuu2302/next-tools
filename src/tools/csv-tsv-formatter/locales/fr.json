@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "csv-tsv-formatter": {
+      "title": "CSV TSV formatter",
+      "description": "Format and convert table text between CSV and TSV.",
+      "keywords": "csv,tsv,formatter,converter,delimiter,table",
+      "configTitle": "Configuration",
+      "configDescription": "Choose input and output delimiters, then normalize the table content.",
+      "inputTypeLabel": "Input type",
+      "outputTypeLabel": "Output type",
+      "autoDetect": "Auto detect",
+      "csv": "CSV",
+      "tsv": "TSV",
+      "trimCells": "Trim cells",
+      "skipEmptyLines": "Skip empty lines",
+      "normalizeColumns": "Normalize columns",
+      "detectedInput": "Detected input",
+      "rows": "Rows",
+      "columns": "Columns",
+      "cardInputTitle": "Input",
+      "cardInputDescription": "Paste CSV or TSV text to format and convert.",
+      "inputPlaceholder": "Paste CSV/TSV data here...",
+      "invalidInput": "Provided content is not a valid CSV/TSV format.",
+      "invalidInputTitle": "Invalid input",
+      "cardOutputTitle": "Formatted output",
+      "cardOutputDescription": "Copy the normalized text in your selected output format."
+    }
+  }
+}

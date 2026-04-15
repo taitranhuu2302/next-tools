@@ -696,6 +696,36 @@
       "title": "Trình phân tích tra cứu DNS",
       "description": "Truy vấn record DNS qua HTTPS và phân tích phản hồi.",
       "keywords": "dns,doh,lookup,records,a,aaaa,mx,txt,cname,ns"
+    },
+    "cron-expression-parser": {
+      "title": "Trình phân tích biểu thức Cron",
+      "description": "Kiểm tra hợp lệ và phân tích biểu thức cron thành mô tả dễ đọc.",
+      "keywords": "cron,parser,expression,validator,scheduler,time"
+    },
+    "csv-tsv-formatter": {
+      "title": "Trình định dạng CSV TSV",
+      "description": "Định dạng và chuyển đổi dữ liệu bảng giữa CSV và TSV.",
+      "keywords": "csv,tsv,formatter,converter,delimiter,table"
+    },
+    "jwt-signer-builder": {
+      "title": "Trình tạo chữ ký JWT",
+      "description": "Tạo và ký JWT bằng thuật toán HS256.",
+      "keywords": "jwt,signer,builder,hs256,token,hmac"
+    },
+    "typescript-to-json": {
+      "title": "TypeScript sang JSON",
+      "description": "Chuyển literal object/array TypeScript thành JSON.",
+      "keywords": "typescript,json,converter,object,array,formatter"
+    },
+    "json-to-typescript": {
+      "title": "JSON sang TypeScript",
+      "description": "Sinh interface và type TypeScript từ JSON.",
+      "keywords": "json,typescript,converter,interface,type,generator"
+    },
+    "api-client": {
+      "title": "API client",
+      "description": "Gửi HTTP request và xem phản hồi từ API.",
+      "keywords": "api,http,client,request,response,cors,proxy"
     }
   }
 }

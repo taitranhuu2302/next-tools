@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "typescript-to-json": {
+      "title": "TypeScript to JSON",
+      "description": "Convert TypeScript object/array literals into JSON.",
+      "keywords": "typescript,json,converter,object,array,formatter",
+      "configTitle": "Configuration",
+      "configDescription": "Convert TypeScript object/array literals into JSON.",
+      "formatJson": "Format JSON output",
+      "cardInputTitle": "TypeScript input",
+      "cardInputDescription": "Paste TypeScript code containing an object or array literal.",
+      "inputPlaceholder": "Paste TypeScript value here...",
+      "invalidInput": "Input must contain a valid TypeScript object/array literal",
+      "invalidInputTitle": "Invalid TypeScript input",
+      "cardOutputTitle": "JSON output",
+      "cardOutputDescription": "Review and copy the converted JSON output.",
+      "outputLabel": "Converted JSON"
+    }
+  }
+}

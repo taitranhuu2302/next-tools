@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "cron-expression-parser": {
+      "title": "Cron expression parser",
+      "description": "Validate and parse cron expressions into human-readable output.",
+      "cardInputTitle": "Cron expression parser",
+      "cardInputDescription": "Validate a cron expression, read its human description, and inspect each field.",
+      "inputLabel": "Cron expression",
+      "inputPlaceholder": "Example: 0 */15 * * * *",
+      "invalidExpression": "Provided cron expression is not valid.",
+      "invalidExpressionTitle": "Invalid expression",
+      "cardOutputTitle": "Parsed result",
+      "cardOutputDescription": "Human-readable interpretation and field-by-field breakdown.",
+      "descriptionLabel": "Description",
+      "fieldCount": "Field count",
+      "columnField": "Field",
+      "columnValue": "Value",
+      "columnDetail": "Detail",
+      "fieldSecond": "Second",
+      "fieldMinute": "Minute",
+      "fieldHour": "Hour",
+      "fieldDayOfMonth": "Day of month",
+      "fieldMonth": "Month",
+      "fieldDayOfWeek": "Day of week",
+      "fieldYear": "Year"
+    }
+  }
+}

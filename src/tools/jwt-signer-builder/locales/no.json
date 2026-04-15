@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "jwt-signer-builder": {
+      "title": "JWT signer builder",
+      "description": "Build and sign JWT tokens using HS256.",
+      "keywords": "jwt,signer,builder,hs256,token,hmac",
+      "warningTitle": "Security warning",
+      "warningDescription": "Use test secrets only. Do not paste production secrets in browser tools.",
+      "cardInputTitle": "JWT signing input",
+      "cardInputDescription": "Provide header, payload, and secret to sign a JWT with HS256.",
+      "headerLabel": "Header JSON",
+      "payloadLabel": "Payload JSON",
+      "secretLabel": "Secret key",
+      "invalidHeader": "Header must be a valid JSON object",
+      "invalidPayload": "Payload must be a valid JSON object",
+      "secretRequired": "Secret is required",
+      "cardOutputTitle": "Signed token output",
+      "cardOutputDescription": "Copy the generated JWT and individual Base64URL segments.",
+      "tokenLabel": "JWT token",
+      "headerSegmentLabel": "Header segment",
+      "payloadSegmentLabel": "Payload segment",
+      "signatureSegmentLabel": "Signature segment"
+    }
+  }
+}

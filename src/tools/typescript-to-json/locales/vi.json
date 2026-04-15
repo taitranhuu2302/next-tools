@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "typescript-to-json": {
+      "title": "TypeScript sang JSON",
+      "description": "Chuyển literal object/array TypeScript thành JSON.",
+      "keywords": "typescript,json,converter,object,array,formatter",
+      "configTitle": "Cấu hình",
+      "configDescription": "Chuyển literal object/array TypeScript thành JSON.",
+      "formatJson": "Định dạng JSON đầu ra",
+      "cardInputTitle": "Đầu vào TypeScript",
+      "cardInputDescription": "Dán đoạn TypeScript có chứa object hoặc array literal.",
+      "inputPlaceholder": "Dán giá trị TypeScript vào đây...",
+      "invalidInput": "Đầu vào phải chứa object/array literal TypeScript hợp lệ",
+      "invalidInputTitle": "Đầu vào TypeScript không hợp lệ",
+      "cardOutputTitle": "Đầu ra JSON",
+      "cardOutputDescription": "Xem và sao chép JSON đã chuyển đổi.",
+      "outputLabel": "JSON đã chuyển đổi"
+    }
+  }
+}

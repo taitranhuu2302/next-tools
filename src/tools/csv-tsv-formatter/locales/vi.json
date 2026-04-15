@@ -1,0 +1,29 @@
+{
+  "tools": {
+    "csv-tsv-formatter": {
+      "title": "Trinh dinh dang CSV TSV",
+      "description": "Dinh dang va chuyen doi du lieu bang giua CSV va TSV.",
+      "keywords": "csv,tsv,formatter,converter,delimiter,table",
+      "configTitle": "Cau hinh",
+      "configDescription": "Chon dinh dang dau vao dau ra va chuan hoa noi dung bang.",
+      "inputTypeLabel": "Loai dau vao",
+      "outputTypeLabel": "Loai dau ra",
+      "autoDetect": "Tu dong nhan dien",
+      "csv": "CSV",
+      "tsv": "TSV",
+      "trimCells": "Bo khoang trang dau cuoi",
+      "skipEmptyLines": "Bo dong trong",
+      "normalizeColumns": "Chuan hoa so cot",
+      "detectedInput": "Dau vao duoc nhan dien",
+      "rows": "So dong",
+      "columns": "So cot",
+      "cardInputTitle": "Dau vao",
+      "cardInputDescription": "Dan du lieu CSV hoac TSV de dinh dang va chuyen doi.",
+      "inputPlaceholder": "Dan du lieu CSV/TSV vao day...",
+      "invalidInput": "Noi dung khong dung dinh dang CSV/TSV hop le.",
+      "invalidInputTitle": "Dau vao khong hop le",
+      "cardOutputTitle": "Dau ra da dinh dang",
+      "cardOutputDescription": "Sao chep noi dung da chuan hoa theo dinh dang dau ra da chon."
+    }
+  }
+}

@@ -9,6 +9,7 @@ import { tool as dataTransferCalculator } from './data-transfer-calculator';
 import { tool as dateCalculator } from './date-calculator';
 import { tool as icoGenerator } from './ico-generator';
 import { tool as base64StringConverter } from './base64-string-converter';
+import { tool as apiClient } from './api-client';
 
 import { tool as basicAuthGenerator } from './basic-auth-generator';
 
@@ -20,8 +21,10 @@ import { tool as caseConverter } from './case-converter';
 import { tool as chmodCalculator } from './chmod-calculator';
 import { tool as chronometer } from './chronometer';
 import { tool as colorConverter } from './color-converter';
+import { tool as cronExpressionParser } from './cron-expression-parser';
 import { tool as cronGenerator } from './cron-generator';
 import { tool as csvToJson } from './csv-to-json';
+import { tool as csvTsvFormatter } from './csv-tsv-formatter';
 import { tool as curlToFetch } from './curl-to-fetch';
 import { tool as dateTimeConverter } from './date-converter';
 import { tool as deviceInformation } from './device-information';
@@ -46,6 +49,7 @@ import { tool as ipv6UlaGenerator } from './ipv6-ula-generator';
 import { tool as jsonDiff } from './json-diff';
 import { tool as jsonMinify } from './json-minify';
 import { tool as jsonStringConverter } from './json-string-converter';
+import { tool as jsonToTypeScript } from './json-to-typescript';
 import { tool as jsonSchemaValidator } from './json-schema-validator';
 import { tool as jsonToCsv } from './json-to-csv';
 import { tool as jsonToToml } from './json-to-toml';
@@ -53,6 +57,7 @@ import { tool as jsonToXml } from './json-to-xml';
 import { tool as jsonToYaml } from './json-to-yaml';
 import { tool as jsonViewer } from './json-prettify';
 import { tool as jwtParser } from './jwt-parser';
+import { tool as jwtSignerBuilder } from './jwt-signer-builder';
 import { tool as keycodeInfo } from './keycode-info';
 import { tool as listConverter } from './list-converter';
 import { tool as loremIpsumGenerator } from './lorem-ipsum-generator';
@@ -89,6 +94,7 @@ import { tool as textToUnicode } from './text-to-unicode';
 import { tool as tokenGenerator } from './token-generator';
 import { tool as tomlToJson } from './toml-to-json';
 import { tool as tomlToYaml } from './toml-to-yaml';
+import { tool as typeScriptToJson } from './typescript-to-json';
 import { tool as ulidGenerator } from './ulid-generator';
 import { tool as urlEncoder } from './url-encoder';
 import { tool as urlParser } from './url-parser';
@@ -123,9 +129,11 @@ export const toolsByCategory: ToolCategory[] = [
       jsonToYaml,
       jsonToToml,
       jsonStringConverter,
+      jsonToTypeScript,
       listConverter,
       tomlToJson,
       tomlToYaml,
+      typeScriptToJson,
       xmlToJson,
       jsonToXml,
     ],
@@ -143,6 +151,7 @@ export const toolsByCategory: ToolCategory[] = [
     components: [
       urlEncoder,
       htmlEntities,
+      apiClient,
       urlParser,
       deviceInformation,
       basicAuthGenerator,
@@ -150,6 +159,7 @@ export const toolsByCategory: ToolCategory[] = [
       otpCodeGeneratorAndValidator,
       mimeTypes,
       jwtParser,
+      jwtSignerBuilder,
       keycodeInfo,
       slugifyString,
       htmlWysiwygEditor,
@@ -169,10 +179,12 @@ export const toolsByCategory: ToolCategory[] = [
       gitMemo,
       randomPortGenerator,
       cronGenerator,
+      cronExpressionParser,
       jsonViewer,
       jsonMinify,
       jsonToCsv,
       csvToJson,
+      csvTsvFormatter,
       curlToFetch,
       jsonSchemaValidator,
       sqlPrettify,

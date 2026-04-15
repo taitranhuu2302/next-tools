@@ -1,0 +1,25 @@
+{
+  "tools": {
+    "jwt-signer-builder": {
+      "title": "Trình tạo chữ ký JWT",
+      "description": "Tạo và ký JWT bằng thuật toán HS256.",
+      "keywords": "jwt,signer,builder,hs256,token,hmac",
+      "warningTitle": "Cảnh báo bảo mật",
+      "warningDescription": "Chỉ dùng secret thử nghiệm. Không dán secret production vào công cụ chạy trên trình duyệt.",
+      "cardInputTitle": "Đầu vào ký JWT",
+      "cardInputDescription": "Cung cấp header, payload và secret để ký JWT với HS256.",
+      "headerLabel": "Header JSON",
+      "payloadLabel": "Payload JSON",
+      "secretLabel": "Secret key",
+      "invalidHeader": "Header phải là JSON object hợp lệ",
+      "invalidPayload": "Payload phải là JSON object hợp lệ",
+      "secretRequired": "Secret là bắt buộc",
+      "cardOutputTitle": "Đầu ra token đã ký",
+      "cardOutputDescription": "Sao chép JWT đã tạo và từng segment Base64URL.",
+      "tokenLabel": "JWT token",
+      "headerSegmentLabel": "Header segment",
+      "payloadSegmentLabel": "Payload segment",
+      "signatureSegmentLabel": "Signature segment"
+    }
+  }
+}

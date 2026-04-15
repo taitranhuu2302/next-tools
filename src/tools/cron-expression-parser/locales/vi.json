@@ -1,0 +1,28 @@
+{
+  "tools": {
+    "cron-expression-parser": {
+      "title": "Trình phân tích biểu thức Cron",
+      "description": "Kiểm tra hợp lệ và phân tích biểu thức cron thành mô tả dễ đọc.",
+      "cardInputTitle": "Trình phân tích biểu thức Cron",
+      "cardInputDescription": "Kiểm tra biểu thức cron, đọc mô tả bằng ngôn ngữ tự nhiên và xem chi tiết từng trường.",
+      "inputLabel": "Biểu thức cron",
+      "inputPlaceholder": "Ví dụ: 0 */15 * * * *",
+      "invalidExpression": "Biểu thức cron không hợp lệ.",
+      "invalidExpressionTitle": "Biểu thức không hợp lệ",
+      "cardOutputTitle": "Kết quả phân tích",
+      "cardOutputDescription": "Diễn giải dễ đọc và phân tích theo từng trường.",
+      "descriptionLabel": "Mô tả",
+      "fieldCount": "Số trường",
+      "columnField": "Trường",
+      "columnValue": "Giá trị",
+      "columnDetail": "Chi tiết",
+      "fieldSecond": "Giây",
+      "fieldMinute": "Phút",
+      "fieldHour": "Giờ",
+      "fieldDayOfMonth": "Ngày trong tháng",
+      "fieldMonth": "Tháng",
+      "fieldDayOfWeek": "Thứ trong tuần",
+      "fieldYear": "Năm"
+    }
+  }
+}

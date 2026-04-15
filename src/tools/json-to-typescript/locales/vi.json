@@ -1,0 +1,20 @@
+{
+  "tools": {
+    "json-to-typescript": {
+      "title": "JSON sang TypeScript",
+      "description": "Sinh interface và type TypeScript từ JSON.",
+      "keywords": "json,typescript,converter,interface,type,generator",
+      "configTitle": "Cấu hình",
+      "configDescription": "Đặt tên root type và sinh type TypeScript từ JSON.",
+      "rootTypeLabel": "Tên root type",
+      "cardInputTitle": "Đầu vào JSON",
+      "cardInputDescription": "Dán JSON để tạo type TypeScript tương ứng.",
+      "inputPlaceholder": "Dán JSON vào đây...",
+      "invalidJson": "Đầu vào JSON không hợp lệ",
+      "invalidJsonTitle": "JSON không hợp lệ",
+      "cardOutputTitle": "Đầu ra TypeScript",
+      "cardOutputDescription": "Xem và sao chép interface/type đã tạo.",
+      "outputLabel": "TypeScript đã tạo"
+    }
+  }
+}
