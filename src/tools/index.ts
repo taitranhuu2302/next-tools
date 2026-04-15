@@ -22,9 +22,11 @@ import { tool as chronometer } from './chronometer';
 import { tool as colorConverter } from './color-converter';
 import { tool as cronGenerator } from './cron-generator';
 import { tool as csvToJson } from './csv-to-json';
+import { tool as curlToFetch } from './curl-to-fetch';
 import { tool as dateTimeConverter } from './date-converter';
 import { tool as deviceInformation } from './device-information';
 import { tool as dockerRunToDockerComposeConverter } from './docker-run-to-docker-compose-converter';
+import { tool as dnsLookupParser } from './dns-lookup-parser';
 import { tool as emailNormalizer } from './email-normalizer';
 import { tool as emojiPicker } from './emoji-picker';
 import { tool as cypher } from './encryption';
@@ -171,6 +173,7 @@ export const toolsByCategory: ToolCategory[] = [
       jsonMinify,
       jsonToCsv,
       csvToJson,
+      curlToFetch,
       jsonSchemaValidator,
       sqlPrettify,
       chmodCalculator,
@@ -184,7 +187,7 @@ export const toolsByCategory: ToolCategory[] = [
   },
   {
     name: 'Network',
-    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator, dataTransferCalculator],
+    components: [ipv4SubnetCalculator, ipv4AddressConverter, ipv4RangeExpander, macAddressLookup, macAddressGenerator, ipv6UlaGenerator, dataTransferCalculator, dnsLookupParser],
   },
   {
     name: 'Math',

@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "curl-to-fetch": {
+      "cardInputDescription": "Paste a cURL command and convert it into JavaScript fetch code.",
+      "cardInputTitle": "cURL input",
+      "cardOutputDescription": "Review and copy the generated fetch code.",
+      "cardOutputTitle": "Fetch output",
+      "invalidCurl": "Provided cURL command is not valid.",
+      "invalidCurlTitle": "Invalid cURL command",
+      "inputPlaceholder": "Paste your cURL command here...",
+      "title": "cURL to Fetch converter",
+      "warningsDescription": "Some parts of the cURL command may not map perfectly to fetch.",
+      "warningsTitle": "Conversion warnings"
+    }
+  }
+}

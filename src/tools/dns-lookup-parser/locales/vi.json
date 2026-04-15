@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "dns-lookup-parser": {
+      "cardInputDescription": "Nhập hostname, chọn loại record và provider, sau đó truy vấn DNS-over-HTTPS.",
+      "cardInputTitle": "Đầu vào truy vấn DNS",
+      "cardResultsDescription": "Các record đã phân tích từ phản hồi DNS-over-HTTPS.",
+      "cardResultsTitle": "Kết quả DNS",
+      "hostnameLabel": "Hostname",
+      "hostnamePlaceholder": "example.com",
+      "invalidHostname": "Hostname được cung cấp không hợp lệ.",
+      "invalidHostnameTitle": "Hostname không hợp lệ",
+      "lookup": "Tra cứu",
+      "lookupFailed": "Tra cứu DNS thất bại",
+      "lookupFailedTitle": "Tra cứu thất bại",
+      "lookuping": "Đang tra cứu...",
+      "name": "Tên",
+      "noRecords": "Không tìm thấy record cho truy vấn này.",
+      "providerLabel": "Nhà cung cấp DNS",
+      "recordTypeLabel": "Loại record",
+      "type": "Loại",
+      "value": "Giá trị"
+    }
+  }
+}

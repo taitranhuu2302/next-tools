@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "dns-lookup-parser": {
+      "cardInputDescription": "Enter a hostname, choose record type and provider, then query DNS-over-HTTPS.",
+      "cardInputTitle": "DNS query input",
+      "cardResultsDescription": "Parsed records from the DNS-over-HTTPS response.",
+      "cardResultsTitle": "DNS answer",
+      "hostnameLabel": "Hostname",
+      "hostnamePlaceholder": "example.com",
+      "invalidHostname": "Provided hostname is not valid.",
+      "invalidHostnameTitle": "Invalid hostname",
+      "lookup": "Lookup",
+      "lookupFailed": "DNS lookup failed",
+      "lookupFailedTitle": "Lookup failed",
+      "lookuping": "Looking up...",
+      "name": "Name",
+      "noRecords": "No records found for this query.",
+      "providerLabel": "DNS provider",
+      "recordTypeLabel": "Record type",
+      "type": "Type",
+      "value": "Value"
+    }
+  }
+}

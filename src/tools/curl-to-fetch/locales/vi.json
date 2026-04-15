@@ -1,0 +1,16 @@
+{
+  "tools": {
+    "curl-to-fetch": {
+      "cardInputDescription": "Dán lệnh cURL và chuyển nó thành mã JavaScript fetch.",
+      "cardInputTitle": "Đầu vào cURL",
+      "cardOutputDescription": "Xem lại và sao chép mã fetch đã tạo.",
+      "cardOutputTitle": "Đầu ra Fetch",
+      "invalidCurl": "Lệnh cURL được cung cấp không hợp lệ.",
+      "invalidCurlTitle": "cURL không hợp lệ",
+      "inputPlaceholder": "Dán lệnh cURL của bạn vào đây...",
+      "title": "Bộ chuyển đổi cURL sang Fetch",
+      "warningsDescription": "Một số phần của lệnh cURL có thể không ánh xạ hoàn hảo sang fetch.",
+      "warningsTitle": "Cảnh báo chuyển đổi"
+    }
+  }
+}

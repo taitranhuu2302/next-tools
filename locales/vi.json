@@ -686,6 +686,16 @@
       "title": "Trình kiểm tra JSON Schema",
       "description": "Tạo JSON Schema từ JSON mẫu và kiểm tra JSON theo schema đó.",
       "keywords": "json,schema,validator,generator,ajv,validation"
+    },
+    "curl-to-fetch": {
+      "title": "Bộ chuyển đổi cURL sang Fetch",
+      "description": "Chuyển lệnh cURL sang mã JavaScript fetch.",
+      "keywords": "curl,fetch,chuyen doi,http,request"
+    },
+    "dns-lookup-parser": {
+      "title": "Trình phân tích tra cứu DNS",
+      "description": "Truy vấn record DNS qua HTTPS và phân tích phản hồi.",
+      "keywords": "dns,doh,lookup,records,a,aaaa,mx,txt,cname,ns"
     }
   }
 }

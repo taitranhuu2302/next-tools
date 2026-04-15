@@ -686,6 +686,16 @@
       "title": "JSON Schema validator",
       "description": "Generate a JSON Schema from sample JSON and validate JSON against it.",
       "keywords": "json,schema,validator,generator,ajv,validation"
+    },
+    "curl-to-fetch": {
+      "title": "cURL to Fetch converter",
+      "description": "Convert cURL commands into JavaScript fetch code.",
+      "keywords": "curl,fetch,converter,http,request"
+    },
+    "dns-lookup-parser": {
+      "title": "DNS lookup parser",
+      "description": "Query DNS records over HTTPS and parse the response.",
+      "keywords": "dns,doh,lookup,records,a,aaaa,mx,txt,cname,ns"
     }
   }
 }
